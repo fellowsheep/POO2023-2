@@ -31,12 +31,12 @@ class Mago:
 hp = Mago('Harry Potter', 17, 'Hogwarts')
 gd = Mago('Gandalf', 2000, 'Magia Cinza')
 
+#Acessando atributos públicos
 print(hp.nome)
 print(hp.idade)
 print(hp.escola)
 
-print(gd.escola)
-
+#Invocando métodos
 hp.andar()
 hp.falar()
 hp.invocarMagia()
