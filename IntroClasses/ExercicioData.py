@@ -1,6 +1,6 @@
 class Data:
     #Atributo da classe
-    nomesMeses = ['Janeiro', 'Fereiro', 'Marco']
+    nomesMeses = ['Janeiro', 'Fevereiro', 'Marco', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
     
     #Método construtor
     def __init__(self,dia,mes,ano):
@@ -13,7 +13,7 @@ class Data:
 
     def imprimirDataPorExtenso(self,cidade):
 
-        #strmes = self.nomesMeses[self.mes-1]
+        strmes = self.nomesMeses[int(self.mes)-1]
 
         if self.mes == 1:
             strmes = 'Janeiro'
