@@ -22,6 +22,9 @@ class Mago:
     def invocarMagia(self):
         print('Invocando magia!')
 
+    def cumprimentar(self,nome):
+        print('Ola, ', nome)
+
     # Método destrutor
     def __del__(self):  
         print('Deixou de existir!') 
@@ -40,8 +43,10 @@ print(hp.escola)
 hp.andar()
 hp.falar()
 hp.invocarMagia()
+hp.cumprimentar("Rossana")
 
 gd.falar()
+gd.cumprimentar("Gabriel")
 
 del hp
 del gd
