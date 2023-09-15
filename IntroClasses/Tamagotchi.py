@@ -39,6 +39,13 @@ class Tamagotchi:
     
     def retornarNome(self):
         return self.nome
+    
+    #Métodos de set
+    def alterarNome(self, novonome):
+        self.nome = novonome
+    
+    def alterarVivo(self, novovalor):
+        self.vivo = novovalor
        
 
 tama1 = Tamagotchi('Tamu')
@@ -63,5 +70,8 @@ if (fome1 > fome2):
     print(nome1, ' esta mais saciado!')
 else:
     print(nome2, ' esta mais saciado!')
+
+tama1.alterarNome('Tama')
+tama2.alterarVivo(False)
 
 del tama1
